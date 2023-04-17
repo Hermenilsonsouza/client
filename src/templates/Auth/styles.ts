@@ -49,6 +49,11 @@ export const BannerContent = styled.div`
     height: 100%;
     z-index: ${theme.layers.base};
     color: ${theme.colors.white};
+
+    a {
+      weight: fit-content;
+      height: fit-content;
+    }
   `}
 `
 
